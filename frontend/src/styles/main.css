@@ -1,0 +1,136 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles */
+  button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    margin-top: 20px;
+    background-color: #0056b3;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  p.message {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  p.message a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  p.message a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Home Page */
+  .homepage {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .homepage h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .homepage button {
+    max-width: 150px;
+    margin-top: 20px;
+  }
+  
+  /* Login and Register Pages */
+  .login-page, .register-page {
+    padding: 20px;
+  }
+  
+  .login-page h2,
+  .register-page h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .login-page .form-group,
+  .register-page .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Profile Page */
+  .profile-page h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  
+  .profile-page p {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .profile-page button {
+    margin-top: 20px;
+  }
+
+  
